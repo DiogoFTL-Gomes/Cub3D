@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   hooks.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: andcarva <andcarva@student.42.fr>          +#+  +:+       +#+        */
+/*   By: darkless12 <darkless12@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/24 15:43:14 by andcarva          #+#    #+#             */
-/*   Updated: 2025/09/24 15:43:15 by andcarva         ###   ########.fr       */
+/*   Updated: 2025/10/03 15:13:50 by darkless12       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ key_code == S || key_code == D)
 		exit_interaction(&cube->map, &cube->player);
 	}
 	else if (key_code == SHIFT_LEFT || key_code == SHIFT_RIGHT)
-		cube->player.move_speed = MOVE_SPEED + 0.5;
+		cube->player.move_speed = MOVE_SPEED + 1.5;
 	return (0);
 }
 
