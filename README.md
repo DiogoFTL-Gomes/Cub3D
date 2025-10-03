@@ -47,6 +47,7 @@ How to play:
 - Press SHIFT to sprint
 - Press E on doors to open and close. <img src="docs/door.png" alt="Door Example" style="vertical-align: middle; margin-left: 20px;" />
 - Press E on exit to open it and escape. <img src="docs/exit.png" alt="Door Example" style="vertical-align: middle; margin-left: 10px;" />
+- Feel free to bump in despair at these walls. <img src="docs/walls.png" alt="Door Example" style="vertical-align: middle; margin-left: 10px;" />
 - Press Esc or click the window close button to exit
 
 ## Credits
