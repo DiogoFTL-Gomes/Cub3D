@@ -37,11 +37,11 @@ Run:
 ```
 
 How to play:
--WASD to move
--On Linux with X11 use mouse to rotate
--On WSL (Windows Subsystem for Linux) → use the arrow keys (← →) to rotate
--Press E on doors to open and close.
--Press Esc or click the window close button to exit
+- WASD to move
+- On Linux with X11 use mouse to rotate
+- On WSL (Windows Subsystem for Linux) → use the arrow keys (← →) to rotate
+- Press E on doors to open and close.
+- Press Esc or click the window close button to exit
 
 ## Credits
 
