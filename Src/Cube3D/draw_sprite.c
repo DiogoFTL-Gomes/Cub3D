@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   draw_sprite.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: andcarva <andcarva@student.42.fr>          +#+  +:+       +#+        */
+/*   By: darkless12 <darkless12@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/24 15:41:01 by andcarva          #+#    #+#             */
-/*   Updated: 2025/09/24 15:41:02 by andcarva         ###   ########.fr       */
+/*   Updated: 2025/10/03 13:28:54 by darkless12       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ void	draw_sprite_y(int col, int tex_x, t_sprite *img, t_cube *cube)
 (img->bpp / 8)));
 		if ((color & 0xFF000000) != 0xFF000000)
 			my_mlx_pixel_put(&cube->game_img, col, y, dim_color(color, \
-img->factor));
+img->factor * 2.0));
 		y++;
 	}
 }

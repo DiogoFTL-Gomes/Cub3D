@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   cube3d.h                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: andcarva <andcarva@student.42.fr>          +#+  +:+       +#+        */
+/*   By: darkless12 <darkless12@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/24 15:38:00 by andcarva          #+#    #+#             */
-/*   Updated: 2025/09/25 18:58:45 by andcarva         ###   ########.fr       */
+/*   Updated: 2025/10/03 13:25:17 by darkless12       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,7 +78,7 @@
 # define EXIT_COLOR 0x4D4D4D
 
 // UTILS
-# define DIM_FACTOR 1
+# define DIM_FACTOR 0.1
 # define LIGHT_RAD 1.7
 # define MOVE_SPEED 1.5
 # define SENSITIVITY 0.0017
