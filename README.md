@@ -1,6 +1,6 @@
-# Cube3D
+# Cub3D
 
-Cube3D is a 3D raycasting engine written in C, inspired by classic games like Wolfenstein 3D. It allows the player to explore a maze from a first-person perspective, featuring basic movement, wall rendering, simple monster following, and player sprint, using the MiniLibX graphics library.
+Cub3D is a 3D raycasting engine written in C, inspired by classic games like Wolfenstein 3D. It allows the player to explore a maze from a first-person perspective, featuring basic movement, wall rendering, simple monster following, and player sprint, using the MiniLibX graphics library.
 
 ## Features
 
@@ -22,8 +22,8 @@ Cube3D is a 3D raycasting engine written in C, inspired by classic games like Wo
 
 Clone the repository:
 ```sh
-git clone https://github.com/andrelencart/Cube3D.git
-cd Cube3D
+git clone https://github.com/DiogoFTL-Gomes/Cub3D.git
+cd Cub3D
 ```
 
 Compile:
@@ -33,8 +33,15 @@ make
 
 Run:
 ```sh
-./cube3d [map_file]
+./cub3d [path_to_file/map_file]
 ```
+
+How to play:
+-WASD to move
+-On Linux with X11 use mouse to rotate
+-On WSL (Windows Subsystem for Linux) → use the arrow keys (← →) to rotate
+-Press E on doors to open and close.
+-Press Esc or click the window close button to exit
 
 ## Credits
 
